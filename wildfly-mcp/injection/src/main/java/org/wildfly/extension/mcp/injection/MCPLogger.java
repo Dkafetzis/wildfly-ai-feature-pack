@@ -38,4 +38,11 @@ public interface MCPLogger extends BasicLogger {
 
     @Message(id = 5, value = "Progress is not available outside of an MCP invocation context")
     IllegalStateException progressNotAvailable();
+
+    @LogMessage(level = WARN)
+    @Message(id = 6, value = "Vetoing user-defined ResourceNotifier bean %s — ResourceNotifier is provided by the MCP subsystem and must not be overridden by deployments")
+    void vetoedUserResourceNotifier(String className);
+
+    @Message(id = 7, value = "ResourceNotifier is not available outside of an MCP invocation context")
+    IllegalStateException resourceNotifierNotAvailable();
 }
