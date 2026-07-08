@@ -39,7 +39,7 @@
             <artifactId>wildfly-mcp-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.mcp-java</groupId>
+            <groupId>org.mcpjava</groupId>
             <artifactId>mcp-server-api</artifactId>
         </dependency>
         <dependency>

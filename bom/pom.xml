@@ -31,9 +31,9 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.mcp-java</groupId>
+                <groupId>org.mcpjava</groupId>
                 <artifactId>mcp-server-api</artifactId>
-                <version>${version.org.mcp-java}</version>
+                <version>${version.org.mcpjava}</version>
                 <scope>provided</scope>
                 <exclusions>
                     <exclusion>
