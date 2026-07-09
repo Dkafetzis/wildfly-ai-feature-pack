@@ -15,7 +15,7 @@
     <resources>
         <artifact name="${org.wildfly.generative-ai:wildfly-mcp-injection}"/>
         <artifact name="${org.wildfly.generative-ai:wildfly-mcp-api}"/>
-        <artifact name="${org.mcp-java:mcp-server-api}"/>
+        <artifact name="${org.mcpjava:mcp-server-api}"/>
     </resources>
     <dependencies>
         <module name="io.smallrye.jandex"/>
