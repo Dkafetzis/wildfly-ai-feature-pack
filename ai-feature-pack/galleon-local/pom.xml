@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.wildfly.generative-ai</groupId>
         <artifactId>wildfly-ai-feature-pack-galleon-parent</artifactId>
-        <version>0.11.0-SNAPSHOT</version>
+        <version>0.20.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>wildfly-ai-provision-galleon-local</artifactId>
